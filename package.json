@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "concurrently \"cd client && npm install && npm run build && npm run dev\" \"node index.js\"",
-    "start": "npm run build && node index.js",
+    "dev": "concurrently \"cd client && npm install && npm run build && npm run dev\" \"node server/index.js\"",
+    "start": "npm run build && node server/index.js",
     "build": "cd client && npm install --include=dev && npm run build && cd .. && npm install"
   },
   "description": "",

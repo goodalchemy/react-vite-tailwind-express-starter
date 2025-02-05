@@ -1,6 +1,6 @@
 import { Layout } from "../components/Layout";
 import { useEffect, useState } from "react";
-import { BASE_URL } from "../constants";
+import { BASE_URL } from "../../constants";
 
 export default function Home() {
   const [message, setMessage] = useState("");

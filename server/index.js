@@ -27,10 +27,10 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const clientPath = path.join(__dirname, "./client/dist");
+const clientPath = path.join(__dirname, "../client/dist");
 app.use(express.static(clientPath));
 
-const helloRoute = require("./src/routes/hello");
+const helloRoute = require("./routes/hello");
 app.use("/api/hello", helloRoute);
 
 app.get("*", (req, res) => {
