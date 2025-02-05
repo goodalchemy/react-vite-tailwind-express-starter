@@ -1,3 +1,5 @@
+For a more opinionated version, see the v2 [here](https://github.com/goodalchemy/react-vite-tailwind-express-starter-2).
+
 # React + Vite + Tailwind + Express Starter
 
 _aka, Luckenbach_
